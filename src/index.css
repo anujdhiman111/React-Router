@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a.active_class {
+  color:#61dafb;
+  
+}
+
+.navlink {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 550;
+  font-family: roboto;
+}
+
+.menu-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #20232a;
+  line-height: 60px;
+}
