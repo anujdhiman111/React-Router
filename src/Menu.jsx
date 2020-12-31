@@ -12,7 +12,7 @@ const Menu = () => {
                  className = "navlink" >Contact Us</NavLink>
                 <NavLink to = "/about" activeClassName = "active_class"
                  className = "navlink" >About Us</NavLink>
-                 <NavLink to = "/user" activeClassName = "active_class"
+                 <NavLink to = "/user/Dhiman" activeClassName = "active_class"
                  className = "navlink" >User</NavLink>
             </div>
         </>
