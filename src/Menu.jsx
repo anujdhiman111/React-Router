@@ -12,6 +12,8 @@ const Menu = () => {
                  className = "navlink" >Contact Us</NavLink>
                 <NavLink to = "/about" activeClassName = "active_class"
                  className = "navlink" >About Us</NavLink>
+                 <NavLink to = "/search" activeClassName = "active_class"
+                 className = "navlink" >Search</NavLink>
                  <NavLink to = "/user/Dhiman" activeClassName = "active_class"
                  className = "navlink" >User</NavLink>
             </div>
