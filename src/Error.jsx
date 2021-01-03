@@ -1,11 +1,10 @@
-import React from "react";
+// import React from "react";
+// const Error = () => {
+//     return(
+//         <>
+//         <h1>OOps! Page Not Found</h1>
+//         </>
+//     )
+// }
 
-const Error = () => {
-    return(
-        <>
-        <h1>OOps! Page Not Found</h1>
-        </>
-    )
-}
-
-export default Error;
+// export default Error;

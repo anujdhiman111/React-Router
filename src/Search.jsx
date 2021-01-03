@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Sresult from "./Sresult";
 
 const Search = () => {
-    const [img,setImg] = useState();
+    const [img,setImg] = useState("");
     const inputEvent = (event) => {
         const data = event.target.value;
         setImg(data);
@@ -11,7 +11,7 @@ const Search = () => {
         <>
         <div className = "search_div">
             <input type = "text" placeholder = "Search" value = {img}
-            onChange = {inputEvent} className = "input-search"/>
+            onChange = {inputEvent} className = "input-search" />
            {img === "" ? null : <Sresult name = {img}/>} 
         </div>
         </>
